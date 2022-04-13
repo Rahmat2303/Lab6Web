@@ -1,4 +1,5 @@
 **Nama : Rahmat**
+
 **Kelas : TI.20.A.2**
 
 # Lab6Web
@@ -80,7 +81,6 @@ Ini tampilannya dibrowser.
 2. Untuk membuat bagian sidebar, kodingannya sebagai berikut.
 
 ![Gambar 15](screenshot/ss8a.png)
-
 ![Gambar 16](screenshot/ss8b.png)
 
 Ini tampilannya dibrowser.
