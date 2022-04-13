@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <title>Layout Sederhana</title>
+    <style>
+      .hero {
+        background-color: #e4e4e5;
+      }
+      .nav a:hover {
+        background-color: #66a6f0;
+      }
+      .tbody tr:hover {
+        background-color: #d9dcdf;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- header -->
+      <header class="bg-light shadow-lg p-4">
+        <h1 class="text-black-50">Layout sederhana</h1>
+      </header>
+
+      <!-- navigasi -->
+      <nav class="nav bg-primary shadow-lg">
+        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+        <a class="nav-link text-white" href="#">Artikel</a>
+        <a class="nav-link text-white" href="#">About</a>
+        <a class="nav-link text-white" href="#">Kontak</a>
+      </nav>
+
+      <div class="shadow-lg">
+        <!-- hero -->
+        <section class="hero">
+          <h1 class="p-4">Hello World!</h1>
+          <p class="ps-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem elit, iaculis innisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec
+            pretium nunc pretium ac.
+          </p>
+          <a href="lab6_css_framework.html" class="btn btn-primary btn-sm ms-4 mt-1 mb-5">Learn more &raquo;</a>
+        </section>
+
+        <!-- wrapper -->
+        <div class="row g-0 m-4">
+          <!-- main -->
+          <div class="col-sm-6 col-md-8">
+            <!-- Row -->
+            <div class="row mt-3">
+              <div class="" style="width: 14rem">
+                <img src="https://dummyimage.com/120/db7d25/fff.png" class="rounded-circle mx-auto d-block" style="width: 150px" alt="Gambar" />
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-bold">Heading</h5>
+                  <p class="card-text">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+                  <a href="#" class="btn btn-secondary btn-sm">View detail</a>
+                </div>
+              </div>
+              <div class="" style="width: 14rem">
+                <img src="https://dummyimage.com/120/3e73e6/fff.png" class="rounded-circle mx-auto d-block" style="width: 150px" alt="Gambar" />
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-bold">Heading</h5>
+                  <p class="card-text">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+                  <a href="#" class="btn btn-secondary btn-sm">View detail</a>
+                </div>
+              </div>
+              <div class="" style="width: 14rem">
+                <img src="https://dummyimage.com/120/71e6d4/fff.png" class="rounded-circle mx-auto d-block" style="width: 150px" alt="Gambar" />
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-bold">Heading</h5>
+                  <p class="card-text">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+                  <a href="#" class="btn btn-secondary btn-sm">View detail</a>
+                </div>
+              </div>
+              <hr />
+              <!-- entry -->
+              <article class="mt-4">
+                <p class="fw-bold fs-4">First featurette heading.</p>
+                <img src="https://dummyimage.com/150/7b8a70/fff.png" class="float-start rounded me-4" alt="" />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer pharetra est nunc,
+                  nec pretium nunc pretium ac.
+                </p>
+              </article>
+              <article class="mt-4">
+                <p class="fw-bold fs-4">First featurette heading.</p>
+                <img src="https://dummyimage.com/150/7b8a70/fff.png" class="float-end rounded ms-3" alt="" />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer pharetra est nunc,
+                  nec pretium nunc pretium ac.
+                </p>
+              </article>
+            </div>
+          </div>
+          <!-- sidebar -->
+          <div class="col-6 col-md-4">
+            <table class="table">
+              <thead class="bg-primary">
+                <th><h4 class="text-white pt-1 ps-2 pb-0">Widget header</h4></th>
+              </thead>
+              <tbody class="tbody border">
+                <tr>
+                  <td><a href="#" class="text-decoration-none text-black-50 fs-5">Widget Link</a></td>
+                </tr>
+                <tr>
+                  <td><a href="#" class="text-decoration-none text-black-50 fs-5">Widget Link</a></td>
+                </tr>
+                <tr>
+                  <td><a href="#" class="text-decoration-none text-black-50 fs-5">Widget Link</a></td>
+                </tr>
+                <tr>
+                  <td><a href="#" class="text-decoration-none text-black-50 fs-5">Widget Link</a></td>
+                </tr>
+                <tr>
+                  <td><a href="#" class="text-decoration-none text-black-50 fs-5">Widget Link</a></td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="table mt-4">
+              <thead class="bg-primary">
+                <th><h4 class="text-white pt-1 ps-2 pb-0">Widget Text</h4></th>
+              </thead>
+              <tbody class="border">
+                <tr>
+                  <td>
+                    <p>Vestibulum lorem elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc pretium ac.</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="bg-dark text-light mt-4">
+          <p class="text-center p-2">&copy;2022 - Universitas Pelita Bangsa</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
